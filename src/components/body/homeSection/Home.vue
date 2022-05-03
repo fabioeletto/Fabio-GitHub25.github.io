@@ -7,7 +7,7 @@
         <p class="sm:text-5xl text-4xl text-slate-200">Fabio Eletto</p>
       </div>
       <div>
-        <p class="sm:text-3xl text-2xl text-dark-text sm:my-4 mb-4">I enjoy creating things that make life <span class="text-main">easier</span>.</p>
+        <p class="sm:text-3xl text-xl text-dark-text sm:my-4 mb-4">I enjoy creating things that make life <span class="text-main">easier</span>.</p>
         <span class="text-gray-500 mb-4 text-sm sm:text-base">
           <p class="sm:w-2/3 z-50">
             I am a full-stack web developer specializing in building exceptional application from scratch. 

@@ -1,5 +1,5 @@
 <template>
-    <div class="text-white fixed xl:block bottom-1/2 -left-5 rotate-90 hidden cursor-pointer w-fit text-sm">
+    <div class="text-white fixed xl:block bottom-1/2 -left-5 rotate-90 hidden cursor-pointer w-fit text-base">
         <a :href="Settings.gitHubProfileUrl" target="_blank">
             <font-awesome-icon
                 size="lg"

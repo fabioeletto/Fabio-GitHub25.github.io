@@ -12,7 +12,7 @@
                 </span>
               </a>
             </div>
-              <div class="hidden sm:flex items-center space-x-1 cursor-pointer text-center">
+              <div class="hidden sm:flex items-center space-x-1 cursor-pointer text-center text-base">
                   <NavigationItemTop 
                     v-for="(sectionInfo, key) in Settings.sections"
                     :key="`${key}-Top-Navigation`"

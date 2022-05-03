@@ -17,7 +17,7 @@ import {
   faArrowCircleDown,
   faArrowUpRightFromSquare,
 } from '@fortawesome/free-solid-svg-icons'
-import {  } from '@fortawesome/free-regular-svg-icons'
+import { } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 /* import font awesome icon component */

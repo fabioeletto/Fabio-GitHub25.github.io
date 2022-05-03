@@ -4,12 +4,12 @@
       @mouseleave="isActiveText = false"
       class="w-full h-full md:h-auto border pt-2 border-white rounded lg:max-w-full lg:flex bg-darker shadow-md duration-500 relative"
     >
-      <div class="w-full border-b border-white mt-5 absolute"></div>
+      <div :class="`w-full duration-500 border-b border-white mt-5 absolute`"></div>
       <div
         class="rounded-b lg:rounded-b-none lg:rounded-r pt-4 px-4 flex flex-col justify-between leading-normal"
       >
         <div class="pt-5">
-          <div :class="isActiveText ? 'duration-500 font-bold text-xl my-2 text-main' : 'duration-500 font-bold text-xl my-2'">{{ title }}</div>
+          <div class="font-bold text-xl my-2">{{ title }}</div>
           <span class="text-dark-text text-sm sm:text-base">
             <slot />
           </span>
@@ -18,7 +18,7 @@
           <span
             v-for="(technologie, key) of usedTechnologies"
             :key="`Tech-${title}-${key}`"
-            class="inline-block sm:text-xs text-xxs mt-2 font-semibold px-2 pt-0.5 rounded border align-middle mr-2"
+            :class="`duration-500 inline-block sm:text-xs text-xxs mt-2 font-semibold px-2 pt-0.5 rounded ${isActiveText ? 'border-main' : 'border-white'} border align-middle mr-2`"
           >
             {{ technologie }}
           </span>
@@ -32,7 +32,6 @@
               icon="fa fa-pen"
               class="ml-2 duration-500 hover:text-main"
             />
-            <!-- <i class=" sm:fa-lg duration-500 hover:text-main"></i> -->
           </router-link>
           <a
             v-if="gitUrl"
@@ -43,7 +42,6 @@
               icon="fa-brands fa-github"
               class="ml-2 duration-500 hover:text-main"
             />
-            <!-- <i class=" sm:fa-lg "></i> -->
           </a>
           <a 
             v-if="externalPageUrl"
@@ -54,7 +52,6 @@
               icon="fa-solid fa-arrow-up-right-from-square"
               class="ml-2 duration-500 hover:text-main"
             />
-            <!-- <i class=" sm:fa-lg ml-2 duration-500 hover:text-main"></i> -->
           </a>
         </span>
       </div>

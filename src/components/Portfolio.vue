@@ -34,7 +34,32 @@ export default {
   data: function() {
     return {
         Settings,
+        observer: null,
     }
   },
+  created() {
+    this.observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("animate-fadeIn");
+                entry.target.classList.remove("opacity-0");
+                entry.target.classList.add("opacity-100");
+            } else {
+                entry.target.classList.remove("animate-fadeIn");
+                entry.target.classList.add("opacity-0");
+                entry.target.classList.remove("opacity-100");
+            }
+        });
+    })
+  },
+  mounted() {
+    const targets = document.querySelectorAll(".show-on-scroll");
+    targets.forEach((target) => {
+        target.classList.add("opacity-0");
+        this.observer.observe(target);
+    });
+  },
+  methods: {
+  }
 };
 </script>
