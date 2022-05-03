@@ -16,7 +16,7 @@
           </p>
           <p>
             <router-link
-              :to="{ hash: 'Contact' }"
+              :to="{ hash: 'contact' }"
               class="text-main"
             >
               Let’s make something special.
@@ -25,7 +25,7 @@
         </span>
         <div class="animate-bounce-slow h-6 flex justify-center align-middle px-2 py-2 rounded-full w-auto mt-7 cursor-pointer">
           <router-link
-            :to="{ hash: 'About' }"
+            :to="{ hash: 'about' }"
           >
             <font-awesome-icon class="text-main" icon="fa-solid fa-circle-arrow-down" size="xl"/>
           </router-link>
