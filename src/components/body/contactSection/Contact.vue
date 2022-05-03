@@ -7,7 +7,7 @@
       <p class="sm:w-2/3">
         I’m always looking for new opportunities and projects. 
         <span class="hidden sm:block">
-          If you have other request or question, don’t hesitate to use the form.
+          If you have other requests or questions, don’t hesitate to contact me. 
           I’ll try my best to get back to you!
         </span>
       </p>
@@ -154,7 +154,7 @@ export default {
       const body = `Hello Fabio, \n\n${this.contactData.message} \n\n Kind regards \n ${this.contactData.fullName}`;
       const parameters = `subject=${this.contactData.subject}&body=${encodeURI(body)}`;
       this.clear();
-      window.location.href = `mailto:fabio@info@gmail.com?${parameters}`;
+      window.location.href = `mailto:info@fabioeletto.de?${parameters}`;
     },
     clear(e) {
       if(e)
