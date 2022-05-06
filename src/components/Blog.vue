@@ -5,7 +5,7 @@
                 <div class="w-full px-10">
                     <div class="flex justify-center">
                         <div class="flex items-center cursor-pointer text-center">
-                            <router-link :to="{ path:'/', hash: `Projects` }">
+                            <router-link :to="{ path:'/', hash: `projects` }">
                                 <button class="py-4">
                                     <font-awesome-icon icon="fa fa-arrow-left" size="lg"/> Back to portfolio
                                 </button>
