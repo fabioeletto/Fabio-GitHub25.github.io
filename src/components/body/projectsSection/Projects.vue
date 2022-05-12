@@ -9,7 +9,7 @@
             :usedTechnologies="['JavaScript', 'Vue.js', 'HTML', 'Python', 'Flask', 'Webpack']"
             :externalPageUrl="'https://helixscripts.com/'"
           >
-            Automated booking of stripe payout invoices in sevDesk
+            Automated checkout solution for different online stores
           </Card>
         </div>
         <div class="md:col-start-5 md:col-span-3 md:row-start-2 md:row-span-2">
