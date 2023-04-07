@@ -1,23 +1,23 @@
 {
-    "sections": [
-        {
-            "name": "Home",
-            "icon": "fa-solid fa-house"
-        },
-        {
-            "name": "About",
-            "icon": "fa fa-user"
-        },
-        {
-            "name": "Projects",
-            "icon": "fa-solid fa-code"
-        },
-        {
-            "name": "Contact",
-            "icon": "fa-solid fa-envelope"
-        }
-    ],
-    "gitHubProfileUrl": "https://github.com/Fabio-GitHub25",
-    "twitterProfileUrl": "https://twitter.com/_0xFabio",
-    "email": "info@fabioeletto.de"
+  "sections": [
+    {
+      "name": "Home",
+      "icon": "fa-solid fa-house"
+    },
+    {
+      "name": "About",
+      "icon": "fa fa-user"
+    },
+    {
+      "name": "Projects",
+      "icon": "fa-solid fa-code"
+    },
+    {
+      "name": "Contact",
+      "icon": "fa-solid fa-envelope"
+    }
+  ],
+  "gitHubProfileUrl": "https://github.com/Fabio-GitHub25",
+  "stackoverflowProfileUrl": "https://stackoverflow.com/users/14933883/mrfabio-25",
+  "email": "info@fabioeletto.de"
 }
